@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+}
+
+/*HEADER*/
+
+.header-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu {
+  margin-left: 240px;
+  padding-right: 240px;
+}
+
+.menu-block {
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  margin-top: -800px;
+  color: white;
+  font-size: 18px;
+}
+
+.menu-block > h2 {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.menu-block__line {
+  position: absolute;
+  background: #e7e7f2;
+  height: 1px;
+  width: 1000px;
+  margin-left: 258px;
+  margin-top: 20px;
+}
+
+/*MAIN*/
+
+.main {
+  color: white;
+  padding: 150px 250px;
+}
+
+.main-title {
+  font-size: 95px;
+}
+
+.main-text {
+  font-size: 28px;
+  padding-top: 15px;
+}
+
+/*ASIDE*/
+
+.aside {
+  background-color: rgba(255, 255, 255, 0.15);
+  width: 540px;
+  height: 400px;
+}
+
+.aside-img {
+  margin-left: 1286px;
+  margin-top: -491px;
+  position: absolute;
+  height: 330px;
+}
+
+.aside-transparation {
+  position: absolute;
+  width: 300px;
+  height: 330px;
+  background: rgba(255, 255, 255, 0.15);
+  margin-left: 1036px;
+  margin-top: -491px;
+  border-radius: 16px;
+}
+
+.aside-information-block {
+  margin-top: -450px;
+  position: absolute;
+  margin-left: 1070px;
+  color: white;
+}
+
+.aside-title {
+  margin-top: 35px;
+}
+
+.aside-vector__icon {
+  margin-top: 85px;
+}
+
+/*FOOTER*/
+
+.footer {
+  position: absolute;
+  background: #535353;
+  margin-top: -415px;
+  margin-left: 250px;
+  width: 1050px;
+  height: 150px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.footer-container {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.footer-container__accommodation {
+  border: 1px solid #e7e7f2;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.footer-container__accommodation > img {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.footer-container__accommodation > p,
+select {
+  margin-left: 55px;
+  background-color: #535353;
+  margin-top: -36px;
+  color: white;
+}
+
+.footer-container__accommodation > p,
+img {
+  color: #e7e7f2;
+}
+
+.footer-container__accommodation > select {
+  width: 300px;
+}
+
+.footer-container__check-in {
+  border: 1px solid #e7e7f2;
+  width: 150px;
+  height: 45px;
+}
+
+.footer-container__check-in > img {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.footer-container__check-in > p {
+  color: #e7e7f2;
+}
+
+.footer-container__check-in > p,
+input {
+  margin-left: 50px;
+  margin-top: -36px;
+}
+
+.footer-container__check-in > input {
+  width: 90px;
+  background: #e7e7f2;
+}
+
+.footer-container__check-out {
+  border: 1px solid;
+  height: 45px;
+}
+
+.footer-title {
+  font-size: 18px;
+  color: white;
+  margin-left: 45px;
+  margin-top: 35px;
+}
+
+.footer-container {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 45px;
+}
+
+.footer-container__accommodation,
+footer-container__check-in,
+footer-container__check-out {
+  width: 420px;
+  height: 45px;
+}
+
+.footer-container__check-out {
+  border: 1px solid #e7e7f2;
+  width: 150px;
+}
+
+.footer-container__check-out > input {
+  width: 70px;
+  margin-left: 30px;
+}
+
+.footer-container__check-out > p {
+  color: #e7e7f2;
+  margin-left: 30px;
+}
+
+.footer-container__users {
+  border: 1px solid #e7e7f2;
+  width: 170px;
+  height: 45px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.footer-container__users > img {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.footer-container__users > p {
+  color: #e7e7f2;
+}
+
+.footer-container__users > select {
+  width: 110px;
+}
+
+.footer-container__users > p,
+select {
+  margin-left: 50px;
+  margin-top: -35px;
+}
+
+.footer-container > button {
+  height: 45px;
+  width: 200px;
+  border-radius: 10px;
+  margin-right: 30px;
+  margin-left: 20px;
+  border: none;
+  background: #91cb82;
+  color: white;
+}
